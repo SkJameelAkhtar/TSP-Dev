@@ -1,0 +1,129 @@
+/* This is a css file */
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Indie+Flower&family=Kalam:wght@700&family=Oswald:wght@300&family=Poppins:wght@200;600&family=Roboto+Mono:wght@400;600&display=swap');
+
+
+.para {
+    color: red;
+    text-align: center;
+    font-family: 'Oswald', 'Times New Roman';
+    border-top: 5px solid purple;
+    border-right: 5px solid yellow;
+    border-left: 5px solid orange;
+    border-top-style: dotted;
+}
+
+/* #twoPara{
+    visibility: hidden;
+} */
+#threePara {
+    color: purple;
+    font-family: 'Poppins', 'Oswald', 'Times New Roman';
+}
+
+p.big {
+    font-size: 25px;
+}
+
+.small {
+    font-size: 15px;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: green;
+}
+
+a:visited {
+    color: grey;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.box {
+    /* background: green; */
+    border: 2px solid blue;
+    /* height:50px; */
+}
+
+.one {
+    /* padding:20px; */
+}
+
+.two {
+    margin: 30px;
+    padding: 20px;
+}
+
+.three {
+    /* padding-bottom: 15px; */
+}
+
+#boxes1 {
+    width: 150px;
+    height: 150px;
+    background: skyblue;
+
+    position: relative;
+    top: 50px;
+    left: 30px;
+    z-index: 0;
+}
+
+#boxes2 {
+    width: 90px;
+    height: 90px;
+    background: red;
+    z-index: 10;
+    position: relative;
+    /* left:200px; */
+}
+
+.group {
+    background: blue;
+    display: flex;
+    height: 200px;
+    width: calc(100% - 100px);
+    flex-direction: row;
+    margin: auto;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+    /* align-content: center; */
+}
+
+.boxes {
+    min-width: 40px;
+    height: 90px;
+    background: skyblue;
+    border: 1px solid black;
+    text-align: center;
+}
+
+/* input{
+    padding-bottom: 15px;
+} */
+@media screen and (max-width:991px) {
+    body{
+        background-color: orange;
+    }
+    .group{
+        display: none;
+    }
+    h1{
+        font-size: 10px;
+    }
+}
+@media screen and (min-width:992px) {
+    body{
+        background-color: violet;
+    }
+}
